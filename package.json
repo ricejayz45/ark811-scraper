@@ -1,16 +1,13 @@
 {
-  "name": "ark811-scraper",
+  "name": "ark811-api",
   "version": "1.0.0",
-  "description": "Scraper for Arkansas 811 ticket responses using Puppeteer",
+  "description": "API client for Arkansas 811",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "puppeteer": "^21.3.8"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "axios": "^1.6.8",
+    "express": "^4.18.2"
   }
 }
